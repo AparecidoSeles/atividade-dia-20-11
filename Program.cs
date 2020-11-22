@@ -17,7 +17,10 @@ namespace atividade_dia_20_11
             Console.WriteLine("Atividade alunos aprovados e reprovados");
 
             string[] nomes = new string[10];
-            float [] notas = new float [4];
+            float nota1º ;
+            float nota2º ;
+            float nota3º ;
+            float nota4º ;
             
             for (var contador = 0; contador < 10; contador++)
             {
@@ -26,16 +29,16 @@ namespace atividade_dia_20_11
                 for (var i = 0; i < 4; i++)
                 {
                     Console.WriteLine("Digite 1º nota");
-                     notas[contador] = float.Parse(Console.ReadLine());
+                    nota1º= float.Parse(Console.ReadLine());
 
-                    // Console.WriteLine("Digite 2º nota");
-                    //  notas[contador] = float.Parse(Console.ReadLine());
+                    Console.WriteLine("Digite 2º nota");
+                    nota2º = float.Parse(Console.ReadLine());
 
-                    // Console.WriteLine("Digite 3º nota");
-                    //  notas[contador] = float.Parse(Console.ReadLine());
+                    Console.WriteLine("Digite 3º nota");
+                    nota3º = float.Parse(Console.ReadLine());
 
-                    // Console.WriteLine("Digite 4º nota");
-                    //  notas[contador] = float.Parse(Console.ReadLine());
+                    Console.WriteLine("Digite 4º nota");
+                    nota4º = float.Parse(Console.ReadLine());
 
                 }   
                 
